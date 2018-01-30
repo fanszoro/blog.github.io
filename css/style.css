@@ -1,0 +1,59 @@
+body{
+	background-color: #2EFEC8;
+	color: black;
+	font-size: 21px;
+
+	font-family: 'Times new roman',sans-serif;
+}
+p{
+	color: #6E6E6E;
+}
+h1{
+	font-size: 70px;
+	color: pink;
+}
+
+span{
+	color: yellow;
+	font-size: 40px;
+}
+/*this is a css remark*/
+/*class use . ,while id use #*/
+#top-section{
+	background: pink;
+}
+.second-section{
+	background: blue;
+}
+.intro{
+	font-size: 30px;
+	color: #380B61;
+}
+.box{
+	background: pink;
+	background-image: url(../img/01.jpg);
+	width: 300px;
+	margin: 50px ;	
+	border: 100px solid red;
+	border-left: 20px solid green;
+	border-style: solid;
+	padding: 10px;
+	/*背景内容缩放并裁剪以适应背景大小*/
+	background-size: cover;
+}
+
+a{
+	color: yellow;
+	text-decoration: none;
+}
+a:visited {
+	color: pink;
+}
+a:hover {
+	color: blue;
+	font-family: sans-serif;
+	font-size: 100px;
+}
+a:active {
+	color: black;
+}
