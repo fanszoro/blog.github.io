@@ -1,59 +1,39 @@
-body{
-	background-color: #2EFEC8;
-	color: black;
-	font-size: 21px;
-
-	font-family: 'Times new roman',sans-serif;
-}
-p{
-	color: #6E6E6E;
-}
-h1{
-	font-size: 70px;
-	color: pink;
+body {
+	background-color: #CDE7B0;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 18px;
+	margin: 0;
 }
 
-span{
-	color: yellow;
-	font-size: 40px;
-}
-/*this is a css remark*/
-/*class use . ,while id use #*/
-#top-section{
-	background: pink;
-}
-.second-section{
-	background: blue;
-}
-.intro{
-	font-size: 30px;
-	color: #380B61;
-}
-.box{
-	background: pink;
-	background-image: url(../img/01.jpg);
-	width: 300px;
-	margin: 50px ;	
-	border: 100px solid red;
-	border-left: 20px solid green;
-	border-style: solid;
-	padding: 10px;
-	/*背景内容缩放并裁剪以适应背景大小*/
-	background-size: cover;
+header {
+	background-color: #59594A;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	margin-bottom: 100px;
 }
 
-a{
-	color: yellow;
-	text-decoration: none;
+.container {
+	width: 80%;
+	margin: 0 auto;
 }
-a:visited {
-	color: pink;
+
+section {
+	float: left;
+	width: 75%; 
+	margin-bottom: 100px;
 }
-a:hover {
-	color: blue;
-	font-family: sans-serif;
-	font-size: 100px;
+
+aside {
+	float: right;
+	width: 25%;
 }
-a:active {
-	color: black;
+
+footer {
+	background-color: #7286A9;
+	clear: both;
+	padding: 50px 0;
+	text-align: center;
 }
